@@ -42,16 +42,63 @@ header{
     button a{
         color: #F5DAA7;
     }
+
+    button:hover{
+        background-color: #F5DAA7;
+        a{
+            color:#662222;
+        }
+    }
  }
 
 footer{
     color:#F5DAA7;
     text-align: center;
     font-size: 15px;
-
     a{
         color: #F5DAA7;
     }
+}
+
+
+#books{
+    background-color: #842A3B;
+    font-size: 20px;
+    margin: 10px;
+    padding: 20px;
+    border: #A3485A solid 5px;
+    text-align: center;
+    img{
+        margin: 5px;
+        border: #F5DAA7 solid 2px;
+    }
+}
+
+#characters{
+    background-color: #842A3B;
+    font-size: 20px;
+    margin: 10px;
+    padding: 20px;
+    border: #A3485A solid 5px;
+}
+
+button{
+    background-color: #A3485A;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+
+    a{
+        color:#F5DAA7;
+    }
+}
+
+#home{
+    text-align: center;
 }
 
 /*color palette: https://colorhunt.co/palette/662222842a3ba3485af5daa7 */
