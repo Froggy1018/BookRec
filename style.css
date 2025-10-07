@@ -1,0 +1,57 @@
+body{
+    background-color: #662222;
+    color: #F5DAA7;
+}
+
+header{
+    background-color: #842A3B;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+    border: #A3485A solid 5px; 
+} 
+
+#introduction{
+    background-color: #842A3B;
+    font-size: 20px;
+    text-align: left;
+    padding: 20px;
+    margin: 10px;
+    border: #A3485A solid 5px;
+
+}
+
+ #series, #standalones{
+    background-color: #842A3B;
+    border: #A3485A solid 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    button{
+        background-color: #A3485A;
+        padding: 10px 20px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 10px;
+        border: #F5DAA7 solid 2px;
+    }
+    button a{
+        color: #F5DAA7;
+    }
+ }
+
+footer{
+    color:#F5DAA7;
+    text-align: center;
+    font-size: 15px;
+
+    a{
+        color: #F5DAA7;
+    }
+}
+
+/*color palette: https://colorhunt.co/palette/662222842a3ba3485af5daa7 */
