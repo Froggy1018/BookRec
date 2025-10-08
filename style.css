@@ -74,7 +74,7 @@ footer{
     }
 }
 
-#characters{
+#characters, #quotes, #getbook{
     background-color: #842A3B;
     font-size: 20px;
     margin: 10px;
