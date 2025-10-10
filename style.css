@@ -82,6 +82,31 @@ footer{
     border: #A3485A solid 5px;
 }
 
+#getbook button{
+    border: #F5DAA7 solid 2px;
+    color: #F5DAA7;
+}
+
+#getbook button:hover{
+    background-color: #F5DAA7;
+    border: #A3485A solid 2px;
+    a{
+        color: #A3485A;
+    }
+}
+
+#home button{
+    border: #F5DAA7 solid 2px;
+    color: #F5DAA7;
+}
+#home button:hover{
+    background-color: #F5DAA7;
+    border: #A3485A solid 2px;
+    a{
+        color: #A3485A;
+    }
+}
+
 button{
     background-color: #A3485A;
     padding: 10px 20px;
