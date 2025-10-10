@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+<head>
+    <title> Quiz!</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Quiz!</h1>
+</header>
+<div id="quizintro">
+    <h2><u>Introduction:</u></h2>
+    <p>Welcome to the quiz! Answer the following questions to find out which book series you should read next!</p>
+</div>   
+
+<div id="quizqs">
+    <form action="results.html" method="get">
+        <h3>1. What genre do you prefer?</h3>
+        <input type="checkbox" id="fantasy" name="genre" value="fantasy" required>
+        <label for="fantasy">Fantasy</label><br>
+        <input type="checkbox" id="mystery" name="genre" value="mystery">
+        <label for="mystery">Mystery</label><br>
+        <input type="checkbox" id="romance" name="genre" value="romance">
+        <label for="romance">Romance</label><br>
+        <input type="checkbox" id="sci-fi" name="genre" value="sci-fi">
+        <label for="sci-fi">Science Fiction</label><br>
+        <input type="checkbox" id="non-fiction" name="genre" value="non-fiction">
+        <label for="non-fiction">Non-Fiction</label><br>
+
+        <h3>2. Do you prefer a series or a standalone book?</h3>
+        <input type="radio" id="series" name="type" value="series" required>
+        <label for="series">Series</label><br>
+        <input type="radio" id="standalone" name="type" value="standalone">
+        <label for="standalone">Standalone</label><br>
+
+        <h3>3. What is your preferred book length?</h3>
+        <input type="radio" id="short" name="length" value="short" required>
+        <label for="short">Short (under 300 pages)</label><br>
+        <input type="radio" id="medium" name="length" value="medium">
+        <label for="medium">Medium (300-600 pages)</label><br>
+        <input type="radio" id="long" name="length" value="long">
+        <label for="long">Long (over 600 pages)</label><br>
+
+        <h3>4. Do you prefer books with complex characters or fast-paced plots?</h3>
+        <input type="radio" id="complex-characters" name="preference" value="complex-characters" required>
+        <label for="complex-characters">Complex Characters</label><br>
+        <input type="radio" id="fast-paced-plots" name="preference" value="fast-paced-plots">
+        <label for="fast-paced-plots">Fast-Paced Plots</label><br>
+
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+<footer>
+    <p>Created by: Jieeun</p>
+    <p><a href="https://github.com/Froggy1018">My Github</a> | <a href="https://www.instagram.com/jess_bob18/">My Instagram</a></p>
+</footer>
+</body>
+</html>

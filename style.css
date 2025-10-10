@@ -101,4 +101,32 @@ button{
     text-align: center;
 }
 
+#quizintro{
+    background-color: #842A3B;
+    font-size: 20px;
+    border: #A3485A solid 5px;
+    margin: 10px;
+    padding: 20px;
+}
+
+#quizqs{
+    background-color: #842A3B;
+    font-size: 20px;
+    border: #A3485A solid 5px;
+    margin: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+
+    button{
+        border: #F5DAA7 solid 2px;
+        color: #F5DAA7;
+    }
+
+    button:hover{
+        background-color: #F5DAA7;
+        color: #A3485A;
+        border: #A3485A solid 2px;
+    }
+}
+
 /*color palette: https://colorhunt.co/palette/662222842a3ba3485af5daa7 */
