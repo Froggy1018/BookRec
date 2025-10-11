@@ -158,4 +158,52 @@ body{
     background-color: #842A3B;
 }
 
+#form{
+    background-color: #842A3B;
+    border: #A3485A solid 5px;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+
+
+}
+
+label{
+    font-size: 25px;
+
+}
+
+#title, #author, #genre, #thoughts{
+    font-size: 20px;
+    background-color: #842A3B;
+    border: #A3485A solid 2px;
+    padding: 10px 20px;
+    color: #F5DAA7;
+    border-radius: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+    button{
+
+    }
+
+    
+
+#submitbutton{
+        border: #F5DAA7 solid 2px;
+        color: #F5DAA7;
+        padding: 10px 20px;
+        background-color: #A3485A;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 10px;
+        border-radius: 5px;
+
+    button:hover{
+        background-color: #F5DAA7;
+        border: #A3485A solid 2px;
+        color:#A3485A
+    }
+}
+
 /*color palette: https://colorhunt.co/palette/662222842a3ba3485af5daa7 */
