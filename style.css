@@ -200,4 +200,13 @@ label{
     }
 }
 
+#contents{
+    background-color: #842A3B;
+    border: #A3485A solid 5px;
+    margin: 10px;
+    padding: 20px;
+    text-align: left;
+    font-size: 20px;
+}
+
 /*color palette: https://colorhunt.co/palette/662222842a3ba3485af5daa7 */

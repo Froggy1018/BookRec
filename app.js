@@ -96,6 +96,18 @@ const bookDatabase = {
         books: 3,
         author: "Stephanie Meyer"
     },
+    "The Land of Stories": {
+        title: "The Land of Stories",
+        type: "series",
+        genres: ["fantasy", "adventure", "young-adult"],
+        length: "medium",
+        complexity: "complex-characters",
+        targetAge: "young-adult",
+        description: "Fantasy series about twins entering a magical world of fairy tales",
+        page: "the_land_of_stories.html",
+        books: 6,
+        author: "Chris Colfer"
+    },
     // Standalones
     "Animal Farm": {
         title: "Animal Farm",
@@ -156,6 +168,30 @@ const bookDatabase = {
         page: "youve_reached_sam.html",
         books: 1,
         author: "Dustin Thao"
+    },
+    "Nightworlds": {
+        title: "Nightworlds",
+        type: "standalone",
+        genres: ["horror", "fantasy", "short-stories"],
+        length: "short",
+        complexity: "complex-characters",
+        targetAge: "adult",
+        description: "Collects the renowned author's award-winning horror stories in one chilling volume that takes readers into a dark realm where nothing is what it seems and terror hides in the shadows.",
+        page: "nightworlds.html",
+        books: 1,
+        author: "F. Paul Wilson"
+    },
+    "Favorite Greek Myths": {
+        title: "Favorite Greek Myths",
+        type: "standalone",
+        genres: ["mythology", "children", "fantasy"],
+        length: "short",
+        complexity: "simple-characters",
+        targetAge: "adult",
+        description: "A retelling of twelve favorite Greek myths for children.",
+        page: "favorite_greek_myths.html",
+        books: 1,
+        author: "Retold by Mary Pope Osborne, Illustrated by Troy Howell"
     }
 };
 
