@@ -1,4 +1,3 @@
-// Book database with detailed metadata for recommendations
 const bookDatabase = {
     // Series
     "Percy Jackson and the Olympians": {
@@ -133,6 +132,30 @@ const bookDatabase = {
         page: "farenheit451.html",
         books: 1,
         author: "Ray Bradbury"
+    },
+    "The Da Vinci Code": {
+        title: "The Da Vinci Code",
+        type: "standalone",
+        genres: ["mystery", "thriller", "historical"],
+        length: "medium",
+        complexity: "complex-characters",
+        targetAge: "adult",
+        description: "A thrilling mystery involving art, history, and religion.",
+        page: "davincicode.html",
+        books: 1,
+        author: "Dan Brown"
+    },
+    "You've Reached Sam": {
+        title: "You've Reached Sam",
+        type: "standalone",
+        genres: ["contemporary", "romance", "young-adult"],
+        length: "medium",
+        complexity: "complex-characters",
+        targetAge: "adult",
+        description: "A heartwarming story about love, loss, and moving on.",
+        page: "youve_reached_sam.html",
+        books: 1,
+        author: "Dustin Thao"
     }
 };
 
