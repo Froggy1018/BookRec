@@ -108,6 +108,18 @@ const bookDatabase = {
         books: 6,
         author: "Chris Colfer"
     },
+    "Red Queen": {
+        title: "Red Queen",
+        type: "series",
+        genres: ["fantasy", "adventure", "young-adult"],
+        length: "medium",
+        complexity: "simple-characters",
+        targetAge: "young-adult",
+        description: "FMC must pretend to be a Silver while secretly helping the Red Guard, a resistance group, to undermine the Silver regime.",
+        page: "RedQueen.html",
+        books: 4,
+        author: "Victoria Aveyard"
+    },
     // Standalones
     "Animal Farm": {
         title: "Animal Farm",
@@ -192,6 +204,42 @@ const bookDatabase = {
         page: "favorite_greek_myths.html",
         books: 1,
         author: "Retold by Mary Pope Osborne, Illustrated by Troy Howell"
+    },
+    "Pride and Prejudice": {
+        title: "Pride and Prejudice",
+        type: "standalone",
+        genres: ["romance", "classic", "literature"],
+        length: "medium",
+        complexity: "complex-characters",
+        targetAge: "adult",
+        description: "A romantic novel that explores the themes of love, reputation, and class in early 19th-century England.",
+        page: "pride_and_prejudice.html",
+        books: 1,
+        author: "Jane Austen"
+    },
+    "To Kill a Mockingbird": {
+        title: "To Kill a Mockingbird",
+        type: "standalone",
+        genres: ["classic", "literature"],
+        length: "medium",
+        complexity: "complex-characters",
+        targetAge: "adult",
+        description: "A novel about the serious issues of rape and racial inequality, seen through the eyes of a child.",
+        page: "to_kill_a_mockingbird.html",
+        books: 1,
+        author: "Harper Lee"
+    },
+    "Room": {
+        title: "Room",
+        type: "standalone",
+        genres: ["fiction", "literature"],
+        length: "medium",
+        complexity: "complex-characters",
+        targetAge: "adult",
+        description: "A novel about the serious issues of confinement and the bond between mother and son, seen through the eyes of a child.",
+        page: "Room.html",
+        books: 1,
+        author: "Emma Donoghue"
     }
 };
 
